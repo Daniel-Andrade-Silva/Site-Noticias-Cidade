@@ -141,6 +141,51 @@ h2 {
 }
 
 
+/* FORMATAÇÃO MENU LATERAL
+*/
+
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #dddddd;
+}
+
+#lateral ul a:hover {
+    background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+
+/* FORMATAÇÃO FORMULÁRIOS
+*/
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 140px;
+    font-size: 0.9em;
+    background: #fff;
+}
+
+input.submit {
+    width: 80px;
+    margin-top: 5px;
+    color: #fff;
+    background-color: #b10333;
+    border-color: #de003e;
+    border-radius: 5px;
+}
+
+
 /* RODAPE
  */
 

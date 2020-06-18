@@ -186,6 +186,35 @@ input.submit {
 }
 
 
+/* FORMATAÇÃO DE IMAGENS
+*/
+
+img.imagen-principal {
+    width: 98%;
+    border: 3px solid #b6b6b6;
+}
+
+
+/* FORMATAÇÃO CABEÇALHOS
+*/
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background: #de003e;
+}
+
+
 /* RODAPE
  */
 
